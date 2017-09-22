@@ -1,0 +1,39 @@
+                                         Set A
+   Attempt any two.
+1. Write a code in java to print a message before the main method runs.Also create a 1-D
+   array of integers and print the values using extended for loop.  
+2. Java under the hood uses virtual function implementation to provide by default dynamic
+   polymorphism.Write a code in java to prevent this dynamic behaviour.
+3. Create an abstract class Racer with following features:
+    String racerName;
+    String team;
+    int salary;
+    void displayTeam();
+    abstract void increaseSalary();//display salary
+   Now create two classes gradeA_Racer and gradeB_Racer that inherits from Racer class 
+   and implement the method increaseSalary based on formula:
+   For gradeA_Racer: new_salary= old_salary+30% of oldSalary;
+   For gradeB_Racer: new_salary= old_salary+20% of oldSalary;
+   Display salaries of both type of players after the respective increase.
+                                       
+                                         Set B
+1. Write a code in java to show use of super and this keywords.
+2. Suppose A is parent class of another class B.Then we define a method   
+    thisWillBeCalledFromParent in both the classes.Then we create an object of class B
+    and use a variable of type A to refer to that object.Now write a code in java such that
+    parent class method is invoked rather than from child class.
+3. create an interface Iperforer such that it contains method 
+    void bonusToEmployee();
+    Now create a class Employee that contains following information:
+    String name;
+    String Department;
+    int salary;
+    void displayDepartment();//to display department information
+    now inherit this class in class ClericalStaff and implement bonusToEmployee() method
+     of interface according to formula:
+     bonus= 25% of salary+ 2500 rupees;
+     you can keep bonus variable and showBonus() method as you want.
+     Display bonus of ClericalStaff.
+
+     
+
